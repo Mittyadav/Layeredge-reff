@@ -7,11 +7,19 @@ import { logMessage, prompt, rl } from "./utils/logger";
 async function main(): Promise<void> {
   console.log(
     chalk.cyan(`
-░█░░░█▀█░█░█░█▀▀░█▀▄░░░█▀▀░█▀▄░█▀▀░█▀▀
-░█░░░█▀█░░█░░█▀▀░█▀▄░░░█▀▀░█░█░█░█░█▀▀
-░▀▀▀░▀░▀░░▀░░▀▀▀░▀░▀░░░▀▀▀░▀▀░░▀▀▀░▀▀▀
-        By : El Puqus Airdrop
-        github.com/ahlulmukh
+ -================= ≫ ──── ≪•◦ ❈ ◦•≫ ──── ≪=================-
+ │                                                          │
+ │  ██████╗  █████╗ ██████╗ ██╗  ██╗                        │
+ │  ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝                        │
+ │  ██║  ██║███████║██████╔╝█████╔╝                         │
+ │  ██║  ██║██╔══██║██╔══██╗██╔═██╗                         │
+ │  ██████╔╝██║  ██║██║  ██║██║  ██╗                        │
+ │  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                        │
+ │                                                          │
+ │                                                          │
+ ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯
+        telegram channel: @scripthub00
+        github.com/Mittyadav
   `)
   );
 
@@ -39,7 +47,7 @@ async function main(): Promise<void> {
         successful++;
         const wallet = layerEdge.getWallet();
         accountsLayerEdge.write(`Wallet Address : ${wallet.address}\nPrivate Key : ${wallet.privateKey}\n`);
-        accountsLayerEdge.write(`===================================================================\n`);
+        accountsLayerEdge.write(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
         const nodeConnected = await layerEdge.connectNode();
         if (nodeConnected) {
           await layerEdge.cekNodeStatus();
