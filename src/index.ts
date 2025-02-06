@@ -58,8 +58,8 @@ async function main(): Promise<void> {
 
   accountsLayerEdge.end();
 
-  console.log(chalk.magenta("\n[*] Dono bang!"));
-  console.log(chalk.green(`[*] Account dono ${successful} dari ${count} akun`));
+  console.log(chalk.magenta("\n[*] Done ✅!"));
+  console.log(chalk.green(`[*] Account done ${successful} from ${count} account`));
   console.log(chalk.magenta("[*] Result in accounts.txt"));
   rl.close(); 
 }
