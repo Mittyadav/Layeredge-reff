@@ -19,8 +19,8 @@ This bot automates the process of creating accounts and using referral codes for
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/ahlulmukh/layeredge-autoreff.git
-   cd layeredge-autoreff
+   git clone https://github.com/ahlulmukh/Layeredge-reff.git
+   cd Layeredge-reff
    ```
 
 2. Install the dependencies:
@@ -52,16 +52,8 @@ This bot automates the process of creating accounts and using referral codes for
 
 ## Stay Connected
 
-- Channel Telegram : [Telegram](https://t.me/elpuqus)
-- Channel WhatsApp : [Whatsapp](https://whatsapp.com/channel/0029VavBRhGBqbrEF9vxal1R)
+- Channel Telegram : [Telegram](https://t.me/scripthub00)
 
-## Donation
-
-If you would like to support the development of this project, you can make a donation using the following addresses:
-
-- Solana: `FPDcn6KfFrZm3nNwvrwJqq5jzRwqfKbGZ3TxmJNsWrh9`
-- EVM: `0xae1920bb53f16df1b8a15fc3544064cc71addd92`
-- BTC: `bc1pnzm240jfj3ac9yk579hxcldjjwzcuhcpvd3y3jdph3ats25lrmcsln99qf`
 
 ## Disclaimer
 
