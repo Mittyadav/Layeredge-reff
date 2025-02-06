@@ -19,7 +19,7 @@ This bot automates the process of creating accounts and using referral codes for
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/ahlulmukh/Layeredge-reff.git
+   git clone https://github.com/Mittyadav/Layeredge-reff.git
    cd Layeredge-reff
    ```
 
